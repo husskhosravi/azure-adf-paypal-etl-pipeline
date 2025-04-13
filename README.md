@@ -9,7 +9,7 @@ The solution consists of multiple interconnected pipelines:
 
 ### 1️⃣ Data Copy Pipeline  
 This pipeline handles the initial data movement:
-![PayPalCopyPipeline](https://github.com/user-attachments/assets/b16befd2-3279-4d06-ac22-4dc95912bfc2)
+![PayPalCopyPipeline](https://github.com/husskhosravi/azure-datafactory-synapse-pipelines/blob/main/screenshots/PayPalCopyPipeline.png)
 
 - Copies source CSV files (`Products.csv` and `PayPal Payments.csv`) from `"hkblob"` storage to `"adfblobstorage"`
 - Includes error handling with a failure path
