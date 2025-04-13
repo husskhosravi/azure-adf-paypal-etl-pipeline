@@ -106,6 +106,7 @@ This project showcases the following technical skills:
 
 ### 🔍 Overview  
 This extension demonstrates a separate reporting pipeline built in **Azure Synapse Analytics**, showcasing how customer data can be transformed into business-ready reports and prepared for automated distribution.
+![AzureSynapseAnalytics_workflow](https://github.com/user-attachments/assets/d10d5cad-5285-4d65-97a6-d072d664fb3d)
 
 ### 🧱 Pipeline Architecture  
 The Synapse pipeline performs the following operations:
@@ -121,7 +122,9 @@ The Synapse pipeline performs the following operations:
 3. **Dynamic Storage**:  
    - Outputs reports to Azure Blob Storage as CSV  
    - Uses a dynamic folder naming convention that ensures each report is timestamped and stored in a structured format for easier archiving, retrieval, and auditing:
-     concat('MonthlyReport', toString(currentDate()))
+   ```
+   concat('MonthlyReport', toString(currentDate()))
+```
 
 4. **Distribution Automation (Planned)**:  
    - Designed to integrate with **Azure Logic Apps**  
