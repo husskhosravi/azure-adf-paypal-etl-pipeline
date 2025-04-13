@@ -3,7 +3,6 @@
 ## 🔍 Overview  
 This project showcases an Azure Data Factory (ADF) pipeline designed to process PayPal transaction data, associate it with product information, and extract valuable business insights. The pipeline demonstrates effective use of cloud-based ETL processes for financial data integration.
 
-This GitHub repository contains documentation and screenshots of the pipeline implementation rather than deployable code, as Azure Data Factory pipelines are configured directly in the Azure portal.
 
 ## 🏗️ Pipeline Architecture  
 The solution consists of multiple interconnected pipelines:
