@@ -64,14 +64,6 @@ The pipeline is configured with:
 - Parameterised dataset connections for flexibility  
 - Error handling for production reliability  
 
-### 🚀 Deployment  
-Instructions for implementing this pipeline:
-
-1. Create these components in your own Azure Data Factory instance  
-2. Configure connection strings to your data sources  
-3. Upload source data to your storage location  
-4. Set up a trigger or manually run the pipeline  
-
 ### 📦 Data Export  
 The final step in the workflow runs an SQL query to extract processed data from the staging database:  
 ![Exporttocsv_workflow](https://github.com/user-attachments/assets/9492ef5e-4ae4-472b-b1f1-7de8e5a382d6)
@@ -106,5 +98,4 @@ This project showcases the following technical skills:
 - Data transformation logic  
 - SQL query-based data extraction  
 - Pipeline monitoring and debugging  
-- Financial data processing  
 - End-to-end ETL workflow design  
