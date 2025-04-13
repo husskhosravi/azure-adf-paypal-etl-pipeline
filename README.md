@@ -99,3 +99,36 @@ This project showcases the following technical skills:
 - SQL query-based data extraction  
 - Pipeline monitoring and debugging  
 - End-to-end ETL workflow design  
+
+---
+
+## 📊 Azure Synapse Analytics: Automated Reporting Pipeline
+
+### 🔍 Overview  
+This extension demonstrates a separate reporting pipeline built in **Azure Synapse Analytics**, showcasing how customer data can be transformed into business-ready reports and prepared for automated distribution.
+
+### 🧱 Pipeline Architecture  
+The Synapse pipeline performs the following operations:
+
+1. **Data Extraction**:  
+   - Connects to the *Customer* table in Azure SQL Database  
+   - Pulls data using a SQL query  
+
+2. **Report Generation**:  
+   - Transforms raw customer data into a reporting format  
+   - Applies business rules and formatting logic  
+
+3. **Dynamic Storage**:  
+   - Outputs reports to Azure Blob Storage as CSV  
+   - Uses a dynamic folder naming convention that ensures each report is timestamped and stored in a structured format for easier archiving, retrieval, and auditing:
+     concat('MonthlyReport', toString(currentDate()))
+
+4. **Distribution Automation (Planned)**:  
+   - Designed to integrate with **Azure Logic Apps**  
+   - Intended to send report download links via email  
+
+### 📩 Future Enhancements  
+- Enable **Logic Apps** integration for automated email distribution  
+- Add **Power BI** dashboard generation as a downstream output  
+- Include **data quality checks** pre-export  
+- Add **access control** for report visibility based on user roles  
