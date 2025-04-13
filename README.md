@@ -122,8 +122,7 @@ The Synapse pipeline performs the following operations:
 3. **Dynamic Storage**:  
    - Outputs reports to Azure Blob Storage as CSV  
    - Uses a dynamic folder naming convention that ensures each report is timestamped and stored in a structured format for easier archiving, retrieval, and auditing:
-   - 
-   ```sql
+```sql
 concat('MonthlyReport', toString(currentDate()))
 ```
 
