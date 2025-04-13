@@ -16,7 +16,7 @@ This pipeline handles the initial data movement:
 - Triggers the transformation pipeline upon successful completion
 
 ### 2️⃣ Transformation Pipeline  
-![PayPalTransformation_workflow](https://github.com/user-attachments/assets/5975653d-16a3-4e10-aafc-80b08d5a7e9c)
+![PayPalTransformation_workflow](https://github.com/husskhosravi/azure-datafactory-synapse-pipelines/blob/main/screenshots/PayPalTransformation_workflow.png)
 
 The main data processing pipeline:
 
@@ -38,7 +38,7 @@ The main data processing pipeline:
   - Supports financial reporting and business intelligence  
   - Can be triggered manually or set on a schedule (hourly, daily, etc.)  
   - Pipeline execution logs provide runtime statistics and error tracking  
-![AzureDataStudioQuery](https://github.com/user-attachments/assets/db694823-b975-4c8f-883e-16e55510a6fe)
+![AzureDataStudioQuery](https://github.com/husskhosravi/azure-datafactory-synapse-pipelines/blob/main/screenshots/AzureDataStudioQuery.png)
 
 ## 💼 Business Value  
 This pipeline delivers several key business benefits:
@@ -65,7 +65,7 @@ The pipeline is configured with:
 
 ### 📦 Data Export  
 The final step in the workflow runs an SQL query to extract processed data from the staging database:  
-![Exporttocsv_workflow](https://github.com/user-attachments/assets/9492ef5e-4ae4-472b-b1f1-7de8e5a382d6)
+![Exporttocsv_workflow](https://github.com/husskhosravi/azure-datafactory-synapse-pipelines/blob/main/screenshots/Exporttocsv_workflow.png)
 
 ```sql
 SELECT [product_id (metadata)], [Amount]
@@ -105,7 +105,7 @@ This project showcases the following technical skills:
 
 ## 🔍 Overview  
 This extension demonstrates a separate reporting pipeline built in **Azure Synapse Analytics**, showcasing how customer data can be transformed into business-ready reports and prepared for automated distribution.
-![AzureSynapseAnalytics_workflow](https://github.com/user-attachments/assets/d10d5cad-5285-4d65-97a6-d072d664fb3d)
+![AzureSynapseAnalytics_workflow](https://github.com/husskhosravi/azure-datafactory-synapse-pipelines/blob/main/screenshots/AzureSynapseAnalytics_workflow.png)
 
 ## 🧱 Pipeline Architecture  
 The Synapse pipeline performs the following operations:
