@@ -102,13 +102,13 @@ This project showcases the following technical skills:
 
 ---
 
-## 📊 Azure Synapse Analytics: Automated Reporting Pipeline
+# 📊 Azure Synapse Analytics: Automated Reporting Pipeline
 
-### 🔍 Overview  
+## 🔍 Overview  
 This extension demonstrates a separate reporting pipeline built in **Azure Synapse Analytics**, showcasing how customer data can be transformed into business-ready reports and prepared for automated distribution.
 ![AzureSynapseAnalytics_workflow](https://github.com/user-attachments/assets/d10d5cad-5285-4d65-97a6-d072d664fb3d)
 
-### 🧱 Pipeline Architecture  
+## 🧱 Pipeline Architecture  
 The Synapse pipeline performs the following operations:
 
 1. **Data Extraction**:  
@@ -130,7 +130,7 @@ concat('MonthlyReport', toString(currentDate()))
    - Designed to integrate with **Azure Logic Apps**  
    - Intended to send report download links via email  
 
-### 📩 Future Enhancements  
+## 📩 Future Enhancements  
 - Enable **Logic Apps** integration for automated email distribution  
 - Add **Power BI** dashboard generation as a downstream output  
 - Include **data quality checks** pre-export  
